@@ -1,0 +1,31 @@
+body {
+  font-family: 'Nunito Sans Variable', sans-serif;
+}
+
+.MuiFormHelperText-root {
+  color: #ff0000 !important;
+  font-size: 15px !important;
+}
+
+.css-1ryge8s-MuiInputBase-root-MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline{
+  border:2px solid #ff0000 !important;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in-animation {
+  animation: fade-in 4s ease-in;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
